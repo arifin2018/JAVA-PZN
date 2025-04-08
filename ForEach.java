@@ -13,6 +13,7 @@ public class ForEach {
         
         for (String name : names) {
             System.out.println(name);
+            // write(String.valueOf(name));
         }
     }
 }
