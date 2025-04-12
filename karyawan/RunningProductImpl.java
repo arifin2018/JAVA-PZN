@@ -7,7 +7,7 @@ public class RunningProductImpl {
         RunningProduct rp = new Product();
         System.out.println(rp.RunningMainProduct());
 
-        RunningProduct rpk = new karyawan.kukuh.Product();
+        RunningProduct rpk = new karyawan.kukuh.Product("ayam cucumber");
         System.out.println(rpk.RunningMainProduct());
     }
 }
