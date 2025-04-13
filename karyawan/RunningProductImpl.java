@@ -8,6 +8,11 @@ public class RunningProductImpl {
         System.out.println(rp.RunningMainProduct());
 
         RunningProduct rpk = new karyawan.kukuh.Product("ayam cucumber");
+        System.out.println(rpk);
+
         System.out.println(rpk.RunningMainProduct());
+
+
+        
     }
 }

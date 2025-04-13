@@ -19,4 +19,8 @@ public class Product extends Location implements RunningProduct {
         super.name = nameParam;
         return super.name;
     }
+
+    public String toString(){
+        return "this is Product " + name + " is pricing = "+price;
+    }
 }
