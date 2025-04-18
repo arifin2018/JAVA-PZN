@@ -1,10 +1,15 @@
 package karyawan;
 
+import java.lang.reflect.Field;
+
 import karyawan.Utill.ValidationUtil;
 import karyawan.Utill.errors.BlankException;
 import karyawan.Utill.errors.ValidationException;
+import karyawan.annotation.Fancy;
+import karyawan.annotation.NotBlank;
 import karyawan.arifin.LoginRequest;
 
+@Fancy(name = "only validation testing")
 public class RunningValidation {
     public static void main(String[] args) {
         LoginRequest loginReq = new LoginRequest();

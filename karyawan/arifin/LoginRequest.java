@@ -1,7 +1,11 @@
 package karyawan.arifin;
 
+import karyawan.annotation.NotBlank;
+
 public class LoginRequest {
+    @NotBlank
     private String username;
+    @NotBlank
     private String password;
 
     public String getUsername() {
