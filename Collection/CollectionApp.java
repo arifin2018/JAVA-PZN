@@ -1,6 +1,7 @@
 package Collection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
@@ -12,6 +13,7 @@ public static void main(String[] args) {
         collection.add("talitha");
         collection.add("khoirunnisaMJ");
         collection.addAll(List.of("udin","khairul","ayah","ibu"));
+        collection.addAll(Arrays.asList("tukul","doyok","tukul2","doyok2"));
 
 
         for (String name : collection) {

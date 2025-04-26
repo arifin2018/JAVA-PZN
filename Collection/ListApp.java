@@ -11,6 +11,7 @@ public class ListApp {
         strings.add("azriel");
         strings.add("rafiq");
         strings.add("pradipta");
+        strings.add("arifin");
 
         strings.set(0,"khoirunnisaMJ");
 
