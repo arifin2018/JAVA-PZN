@@ -20,5 +20,18 @@ public class SetApp {
             System.out.println(string);
         }
         System.out.println(names);
+
+        System.out.println();
+        System.out.println("========================================================================");
+        System.out.println();
+
+        Set<String> set = new HashSet<>();
+        set.add("apel");
+        set.add("jeruk");
+        set.add("pisang");
+
+        for (String buah : set) {
+            System.out.println(buah);
+        }
     }
 }
