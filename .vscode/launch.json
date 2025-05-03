@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ComparatorLambda",
+            "request": "launch",
+            "mainClass": "arifin.ComparatorLambda",
+            "projectName": "belajar-junit"
+        },
+        {
+            "type": "java",
+            "name": "LambdaExample",
+            "request": "launch",
+            "mainClass": "arifin.LambdaExample",
+            "projectName": "belajar-junit"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "arifin.Calculator",
+            "projectName": "belajar-junit"
+        }
+    ]
+}
