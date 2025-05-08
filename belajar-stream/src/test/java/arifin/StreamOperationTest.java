@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 import org.junit.jupiter.api.Test;
 
 class StreamOperationTest {
-    
     @Test
     void testStreamOpearation(){
         List<String> names = List.of("Nur","Arifin","Azriel");
