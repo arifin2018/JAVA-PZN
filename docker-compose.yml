@@ -1,0 +1,9 @@
+services:
+  db:
+    image: mysql:9.3.0
+    ports:
+      - "3312:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=arifin 
+    volumes:
+      - ./docker/mysql:/var/lib/mysql
