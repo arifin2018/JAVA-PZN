@@ -1,7 +1,7 @@
-package service;
+package arifin.service;
 
-import entity.Todolist;
-import repository.TodolistRepository;
+import arifin.entity.Todolist;
+import arifin.repository.TodolistRepository;
 
 public class TodolistServiceImpl implements TodolistService{
 

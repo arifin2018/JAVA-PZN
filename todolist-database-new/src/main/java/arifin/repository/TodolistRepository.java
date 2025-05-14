@@ -1,6 +1,6 @@
-package repository;
+package arifin.repository;
 
-import entity.Todolist;
+import arifin.entity.Todolist;
 
 public interface TodolistRepository {
     Todolist[] getAll();

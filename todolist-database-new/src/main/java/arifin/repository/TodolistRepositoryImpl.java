@@ -1,8 +1,8 @@
-package repository;
+package arifin.repository;
 
 import java.util.Arrays;
 
-import entity.Todolist;
+import arifin.entity.Todolist;
 
 public class TodolistRepositoryImpl implements TodolistRepository{
 

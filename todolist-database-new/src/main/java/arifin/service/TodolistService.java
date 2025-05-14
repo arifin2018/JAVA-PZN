@@ -1,4 +1,4 @@
-package service;
+package arifin.service;
 
 public interface TodolistService {
     void showTodoList();

@@ -1,4 +1,4 @@
-package entity;
+package arifin.entity;
 
 public class Todolist {
     private String todo;

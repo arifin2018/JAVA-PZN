@@ -1,6 +1,7 @@
-package view;
+package arifin.view;
 
-import service.TodolistService;
+import arifin.service.TodolistService;
+import arifin.utill.inputData;
 
 public class TodolistView {
 
@@ -21,7 +22,7 @@ public class TodolistView {
             System.out.println("2. Hapus");
             System.out.println("x. Keluar");
 
-            var input = utill.inputData.inputDataScanner("Pilih");
+            var input = inputData.inputDataScanner("Pilih");
             // var input = inputData("Pilih");
 
             if (input.equals("1")) {
@@ -42,7 +43,7 @@ public class TodolistView {
     }
     public void addTodoList() {
         System.out.println("MENAMBAH TODO LIST");
-        String todo = utill.inputData.inputDataScanner("Nama Todo (x jika ingin berhenti)");
+        String todo = inputData.inputDataScanner("Nama Todo (x jika ingin berhenti)");
         if (todo.equals("x")) {
             return;
         }else{
@@ -52,7 +53,7 @@ public class TodolistView {
 
     public void removeTodoList() {
         System.out.println("MENGHAPUS TODO LIST");
-        String todo = utill.inputData.inputDataScanner("Nomer Todo List (x jika ingin berhenti)");
+        String todo = inputData.inputDataScanner("Nomer Todo List (x jika ingin berhenti)");
 
         if (todo.equals("x")) {
             return;

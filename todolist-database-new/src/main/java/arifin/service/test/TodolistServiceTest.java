@@ -1,10 +1,10 @@
-package service.test;
+package arifin.service.test;
 
-import entity.Todolist;
-import repository.TodolistRepository;
-import repository.TodolistRepositoryImpl;
-import service.TodolistService;
-import service.TodolistServiceImpl;
+import arifin.entity.Todolist;
+import arifin.repository.TodolistRepository;
+import arifin.repository.TodolistRepositoryImpl;
+import arifin.service.TodolistService;
+import arifin.service.TodolistServiceImpl;
 
 public class TodolistServiceTest {
     public static void main(String[] args) {
