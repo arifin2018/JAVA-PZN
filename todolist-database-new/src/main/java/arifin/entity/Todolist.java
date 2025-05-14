@@ -18,3 +18,11 @@ public class Todolist {
         this.todo = todo;
     }
 }
+
+
+
+/**
+ * create table 
+ * 
+ * 
+ */
