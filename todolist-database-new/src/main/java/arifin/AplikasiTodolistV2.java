@@ -8,10 +8,10 @@ import arifin.view.TodolistView;
 
 public class AplikasiTodolistV2 {
     public static void main(String[] args) {
-        TodolistRepository todolistRepository = new TodolistRepositoryImpl();
-        TodolistService todolistService = new TodolistServiceImpl(todolistRepository);
-        TodolistView todolistView = new TodolistView(todolistService);
+        // TodolistRepository todolistRepository = new TodolistRepositoryImpl();
+        // TodolistService todolistService = new TodolistServiceImpl(todolistRepository);
+        // TodolistView todolistView = new TodolistView(todolistService);
 
-        todolistView.showTodoList();
+        // todolistView.showTodoList();
     }
 }
